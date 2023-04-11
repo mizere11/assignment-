@@ -1,0 +1,362 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.hero {
+    background-image: url('path/to/your/academic-image.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero h2 {
+    font-size: 2rem;
+}
+
+.cta-btn {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+/* Button Styles */
+.cta-btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.services .service {
+    text-align: center;
+    width: 30%;
+}
+
+.services .service i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.services .service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.pricing-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.pricing-table th,
+.pricing-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.pricing-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.pricing-table td:nth-child(2),
+.pricing-table td:nth-child(4) {
+    background-color: #f1f1f1;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px;
+}
+
+.testimonials .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials .carousel .testimonial {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.testimonials .carousel .testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form textarea {
+    border: 1px solid #ddd;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-form button[type='submit'] {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.contact-form button[type='submit']:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-info .info {
+    width: 30%;
+}
+
+/* Pricing section */
+.pricing {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.price-table {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.price-card {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 1rem;
+  padding: 2rem;
+  width: 300px;
+}
+
+.price-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.price span {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+
+/* Testimonials section */
+.testimonials {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 1rem;
+  padding: 2rem;
+  width: 300px;
+}
+
+.testimonial blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.author {
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* Contact section */
+.contact {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.contact address {
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.contact a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1664575262619-b28fef7a40a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d3JpdGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30vh;
+    position: relative;
+}
+
+.hero h1, .hero h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}/* ... other CSS rules ... */
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.services .service {
+    text-align: center;
+    width: 30%;
+}
+
+.services .service img {
+    height: 150px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+/* ... other CSS rules ... */
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
